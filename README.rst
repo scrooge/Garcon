@@ -1,7 +1,8 @@
 Descripción
 ===========
 
-Éste es un proyecto de aprendizaje para PHPCabal. Para empezar, hay que desarrollar 2 CRUDs: clientes y productos.
+Este es un proyecto de aprendizaje para PHPCabal. Para empezar, hay que 
+desarrollar 2 CRUDs: clientes y productos.
 
 Nos hemos separado en 2 grupos. Escoge uno y participa.
 
