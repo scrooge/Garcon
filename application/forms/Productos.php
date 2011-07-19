@@ -15,7 +15,7 @@ class Application_Form_Productos extends Zend_Form
             ->addFilter( 'StripTags' )
             ->addFilter( 'StringTrim' )
             ->addValidator( 'NotEmpty' );
-	     ->addValidator( 'Regex', false, array('#^([a-z A-Z0-9ñÑáéíóúÁÉÍÓÚüÜ]$
+	    ->addValidator( 'Regex', false, array('#^([a-z A-Z0-9ñÑáéíóúÁÉÍÓÚüÜ]+$.*)#'))
             ->addValidator( 'stringLength', true, array(1, 255));
 
 
@@ -25,7 +25,7 @@ class Application_Form_Productos extends Zend_Form
     	    ->addFilter( 'StripTags' )
     	    ->addFilter( 'StringTrim' )
     	    ->addValidator( 'NotEmpty' );
-	    ->addValidator( 'Regex', false, array('#^([a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜ]$
+	    ->addValidator( 'Regex', false, array('#^([a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜ]+$.*)#'))
             ->addValidator( 'stringLength', true, array(1, 255));
  		    	
 
